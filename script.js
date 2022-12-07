@@ -18,3 +18,23 @@
 
 alert('finish');
 console.log('change');
+
+/*PARTE 2 - Branching*/
+//Branc(ramificações) é uma forma de utilizar e modificar todo o master sem interferir diretamente nele
+//toda vez que formos adicionar uma nova funcionalidade, devemos iniciar uma nova branch ao invés de alterar a master!
+//o que é alterado no branch não afetará o master.
+
+//1)Criando uma branch
+//git branch nomeBranch
+
+//2)Navegar/Alterar a branch atual
+//git checkout nomeBranch
+
+//2.1)Atalho que cria e altera a branch de uma vez só
+//git checkout -b nomeBranch
+
+//3)Listando todas branch
+//git branch
+
+//Exercício 1 - criar uma nova branch e adicionar o arquivo style.css via linha de comando
+//depois alterar novamente para a master
